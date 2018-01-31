@@ -54,4 +54,4 @@ ego_G  = nx.ego_graph(G, 3, radius = 5)
 nx.draw_circular(G, node_color = 'bisque', with_labels = True)
 
 sum_stats = nx.info(G) 
-print(sum_stats) 
+print(sum_stats)  
